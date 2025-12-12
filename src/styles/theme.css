@@ -1,0 +1,48 @@
+@theme {
+  /* font */
+  --font-rubik: Rubik, sans-serif;
+  --font-dot-gothic: DotGothic16, sans-serif;
+  /* purple */
+  --color-purple-primary: #7f45e2;
+  --color-purple-secondary: #462878;
+
+  /* gradient purple*/
+  --gradient-purple-primary: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
+
+  /* grey */
+  --color-grey-primary: #ebebeb;
+  --color-grey-secondary: #6b6b6b;
+  --color-grey-tertiary: #2d2a37;
+
+  /* gradient-grey */
+  --gradient-grey-primary: linear-gradient(
+    180deg,
+    #0000000d 0%,
+    #ffffff0d 100%
+  );
+
+  --gradient-grey-primary-hover: linear-gradient(
+    180deg,
+    #0000001a 0%,
+    #ffffff1a 100%
+  );
+
+  --gradient-calculator-display: linear-gradient(
+    180deg,
+    rgba(16, 65, 120, 0.05) 40%,
+    rgba(32, 95, 165, 0.08) 90%,
+    rgba(43, 106, 207, 0.07) 100%
+  );
+
+  /* shadow */
+  --shadow-button: 0 11px 7px 0 rgba(0, 0, 0, 0.01),
+    0 7px 7px 0 rgba(0, 0, 0, 0.04), 0 4px 6px 0 rgba(0, 0, 0, 0.1),
+    0 2px 4px 0 rgba(0, 0, 0, 0.26), 0 0 2px 0 rgba(0, 0, 0, 0.29),
+    0 2px 3px 0 rgba(255, 255, 255, 0.06) inset;
+
+  --shadow-card: 0 4px 4px 0 rgba(0, 0, 0, 0.25),
+    0 188px 52px 0 rgba(0, 0, 0, 0.01), 0 120px 48px 0 rgba(0, 0, 0, 0.04),
+    0 68px 41px 0 rgba(0, 0, 0, 0.15), 0 30px 30px 0 rgba(0, 0, 0, 0.26),
+    0 8px 17px 0 rgba(0, 0, 0, 0.29), 0 6px 8px 0 rgba(255, 255, 255, 0.1) inset,
+    0 -4px 5px 0 rgba(0, 0, 0, 0.22) inset;
+}
