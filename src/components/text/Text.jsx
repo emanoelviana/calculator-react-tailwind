@@ -5,9 +5,10 @@ import { createElement } from "react";
 const textStyles = cva("text-center", {
   variants: {
     size: {
+      extraSmall: "text-sm",
       small: "text-xl",
       medium: "text-2xl",
-      large: "text-4xl",
+      large: "text-3xl tracking-tight",
     },
     tone: {
       light: "text-grey-primary",
