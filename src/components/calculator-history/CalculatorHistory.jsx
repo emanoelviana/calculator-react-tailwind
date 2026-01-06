@@ -14,20 +14,20 @@ function CalculatorHistory() {
           px-8 py-9
           rounded-2xl
           bg-stone-900
-          w-[356px] h-full
+          w-[356px]
           shadow-card
           `}
     >
       <Text size={"medium"} tone={"light"} className={"text-left"}>
-        Operations log
+        Histórico de operações
       </Text>
       <div id="logs" className="flex flex-col gap-3">
         {countHistory.length > 0 ? (
           <ul className="flex flex-col gap-4">
             {countHistory.map((history, index) => (
-              <Text as="li" size={"small"} className="text-white text-left">
+              <p key={index} className="text-stone-400 text-left">
                 {history}
-              </Text>
+              </p>
             ))}
           </ul>
         ) : (
