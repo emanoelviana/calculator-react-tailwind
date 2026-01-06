@@ -6,7 +6,7 @@ function App() {
       className={`
       w-full
       h-full min-h-dvh
-      flex items-center justify-center
+      flex lg:items-center justify-center
     `}
     >
       <Calculator />
